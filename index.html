@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kir yuvish mashinasi</title>
+  <!-- STYLESHEET -->
+
+  <!-- google-fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="main-content">
+    <div class="container">
+      <ul class="washing-mode-list">
+        <li class="washing-mode-item washing-mode-item-active">
+          <a class="washing-mode-link" href="#">Synthetic</a>
+        </li>
+        <li class="washing-mode-item">
+          <a class="washing-mode-link" href="#">Wool</a>
+        </li>
+        <li class="washing-mode-item">
+          <a class="washing-mode-link" href="#">Denim</a>
+        </li>
+        <li class="washing-mode-item">
+          <a class="washing-mode-link" href="#">Silk</a>
+        </li>
+        <li class="washing-mode-item">
+          <a class="washing-mode-link" href="#">Linen</a>
+        </li>
+      </ul>
+      <p class="washing-mode-notice">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima alias blanditiis optio eaque. Quas, quo excepturi!</p>
+
+
+      <div class="washing-mode-info">
+        <button class="washing-mode-controller washing-mode-controller-prev" type="button">
+          <img src="icon-arrow-left.svg" alt="Previous" class="washing-mode-controller-img" width="24" height="24">
+        </button>
+        <button class="washing-mode-controller washing-mode-controller-next" type="button">
+          <img src="icon-arrow-reight.svg" alt="Next" class="washing-mode-controller-img" width="24" height="24">
+        </button>
+
+        <button class="start-button" type="button">Start</button>
+
+        <dl class="washing-mode-status">
+          <div class="washing-mode-status-item washing-mode-status-item-timer">
+            <dt class="washing-modestatus-heading">Time</dt>
+            <dd class="washing-modestatus-value">45 min</dd>
+          </div>
+          <div class="washing-mode-status-item washing-mode-status-item-temperature">
+            <dt class="washing-modestatus-heading">Temperature</dt>
+            <dd class="washing-modestatus-value">Cold</dd>
+          </div>
+          <div class="washing-mode-status-item washing-mode-status-item-load">
+            <dt class="washing-modestatus-heading">Load</dt>
+            <dd class="washing-modestatus-value">Medium</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
